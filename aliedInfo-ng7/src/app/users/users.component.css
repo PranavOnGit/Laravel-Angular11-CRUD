@@ -1,0 +1,11 @@
+
+/* Style the search field */ 
+input[type="search"] {
+    padding: 1px 4px 5px 4px;
+    /* padding: 4px; */
+    font-size: 17px;
+    border: 1px solid grey;
+    float: revert;
+    width: 50%;
+    background: #f1f1f1;
+  }

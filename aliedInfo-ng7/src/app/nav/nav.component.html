@@ -1,0 +1,14 @@
+
+<div class="topnav">
+    <div class="container">
+        <a routeLink="/" class="logo">{{ appTitle }}</a>
+        <ul>
+            <li><a routerLink="/" class="nav-item" [ngClass]="{
+                'active': Activeh
+            }" (click)="isActiveH()" >Home</a></li>
+            <li><a routerLink="/users" class="nav-item" [ngClass]="{
+                'active': Activeu
+            }" (click)="isActiveU()" >Users</a></li>
+        </ul>
+    </div>
+  </div>
