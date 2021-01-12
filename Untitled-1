@@ -1,0 +1,15 @@
+
+
+composer composer create-project --prefer-dist laravel/laravel:^7.0 AliedInfo
+
+Sudo Nano CHMOD 
+
+php artisan make:model users --migration 
+
+php artisan migrate 
+
+changes in Model (PK, fillables)
+
+php artisan make:controller AliedUsersController --resource
+
+php artisan make:seeder UserSeeder 
